@@ -1,22 +1,12 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: backstage-plugin-kubecost
-  title: Backstage Plugin Kubecost
-  description: |
-    Backstage plugin to provide Kubecost Widgets
+  name: kubey
   annotations:
-    github.com/project-slug: suxess-it/backstage-plugin-kubecost
-    backstage.io/view-url: https://github.com/suxess-it/backstage-plugin-kubecost/blob/main/catalog-info.yaml
-  tags:
-    - plugin
-    - frontend
-  links:
-    - url: https://www.npmjs.com/package/@suxess-it/backstage-plugin-kubecost
-      title: NPM
+   backstage.io/kubernetes-id: hawk
 spec:
-  type: library
-  owner: user:philipp.achmueller
-  lifecycle: production
-  dependsOn:
-    - resource:kubecost
+  type: service
+  lifecycle: experimental
+  owner: guests
+  system: examples
+  providesApis: [example-grpc-api]
