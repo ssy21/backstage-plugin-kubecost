@@ -2,7 +2,7 @@ apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
   name: duke
-  backstage.io/kubernetes-id: noob
+  backstage.io/kubernetes-id: hawk
 spec:
   type: service
   lifecycle: experimental
