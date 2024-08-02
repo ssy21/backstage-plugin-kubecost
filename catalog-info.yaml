@@ -3,7 +3,7 @@ kind: Component
 metadata:
   name: nike
   annotations:
-   backstage.io/kubernetes-id: hawk
+   backstage.io/kubernetes-id: pizza
 spec:
   type: service
   lifecycle: experimental
