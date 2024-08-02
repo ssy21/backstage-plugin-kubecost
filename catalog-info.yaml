@@ -1,7 +1,8 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: mike
+  name: duke
+  backstage.io/kubernetes-id: noob
 spec:
   type: service
   lifecycle: experimental
